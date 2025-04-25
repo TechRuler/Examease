@@ -1,0 +1,552 @@
+[
+    {
+        "question": "Two projectiles A and B are thrown at 40 m/s and 60 m/s at angles 30\u00b0 and 60\u00b0. The ratio of their ranges is:",
+        "options": [
+            "4 : 9",
+            "2 : 3",
+            "1 : 1",
+            "3 : 2"
+        ],
+        "correctOption": "4 : 9",
+        "id": 1
+    },
+    {
+        "question": "A particle of mass 500 g has velocity (2t i + 3t\u00b2 j) m/s. Force at t=1s is (i + xj). Find x:",
+        "options": [
+            "4",
+            "3",
+            "6",
+            "2"
+        ],
+        "correctOption": "3",
+        "id": 2
+    },
+    {
+        "question": "Two forces A and A/2 are perpendicular. Resultant magnitude is:",
+        "options": [
+            "(\u221a5)A/2",
+            "5A/2",
+            "(\u221a5)A\u00b2/2",
+            "(\u221a5)A/4"
+        ],
+        "correctOption": "(\u221a5)A/2",
+        "id": 3
+    },
+    {
+        "question": "Four particles A, B, C, D have same momentum. Which has max kinetic energy?",
+        "options": [
+            "D",
+            "C",
+            "A",
+            "B"
+        ],
+        "correctOption": "A",
+        "id": 4
+    },
+    {
+        "question": "A ball is thrown up at 150 m/s. Ratio of velocity after 3s and 5s is (x+1)/x. Find x:",
+        "options": [
+            "6",
+            "10",
+            "\u20135",
+            "5"
+        ],
+        "correctOption": "5",
+        "id": 5
+    },
+    {
+        "question": "Weight of a body on Earth is 400 N. At half Earth's radius depth, it will be:",
+        "options": [
+            "200 N",
+            "300 N",
+            "100 N",
+            "Zero"
+        ],
+        "correctOption": "200 N",
+        "id": 6
+    },
+    {
+        "question": "Moment of inertia of a semicircular ring about axis through center perpendicular to plane is xMR\u00b2. Find x:",
+        "options": [
+            "4",
+            "1",
+            "6",
+            "2"
+        ],
+        "correctOption": "1",
+        "id": 7
+    },
+    {
+        "question": "Aluminium rod with Y = 7.0\u00d710\u00b9\u2070 N/m\u00b2 undergoes strain 0.04%. Energy per unit volume is:",
+        "options": [
+            "5600",
+            "8400",
+            "2800",
+            "11200"
+        ],
+        "correctOption": "5600",
+        "id": 8
+    },
+    {
+        "question": "If wire length doubled and cross-section halved, Young's modulus becomes:",
+        "options": [
+            "Y/4",
+            "4Y",
+            "Y",
+            "2Y"
+        ],
+        "correctOption": "Y",
+        "id": 9
+    },
+    {
+        "question": "Two satellites A and B in same orbit. A is twice mass of B. Which is same for both?",
+        "options": [
+            "Potential energy",
+            "Total energy",
+            "Kinetic energy",
+            "Speed"
+        ],
+        "correctOption": "Speed",
+        "id": 10
+    },
+    {
+        "question": "A body cools from 80\u00b0C to 60\u00b0C in 5 min. Room temp is 20\u00b0C. Time to cool from 60\u00b0C to 40\u00b0C:",
+        "options": [
+            "500 s",
+            "25 / 3 s",
+            "450 s",
+            "420 s"
+        ],
+        "correctOption": "500 s",
+        "id": 11
+    },
+    {
+        "question": "Average KE of a monatomic molecule is 0.414 eV. Temp is:",
+        "options": [
+            "3000 K",
+            "3200 K",
+            "1600 K",
+            "1500 K"
+        ],
+        "correctOption": "3200 K",
+        "id": 12
+    },
+    {
+        "question": "Temp of gas is -78\u00b0C and avg KE is k. Temp for avg KE = 2k is:",
+        "options": [
+            "117",
+            "320",
+            "160",
+            "-157"
+        ],
+        "correctOption": "117",
+        "id": 13
+    },
+    {
+        "question": "Engine between boiling and freezing points of water. Efficiency:",
+        "options": [
+            "2, 3 and 4 only",
+            "2 and 3 only",
+            "2 and 4 only",
+            "1 and 2 only"
+        ],
+        "correctOption": "2 and 4 only",
+        "id": 14
+    },
+    {
+        "question": "Statement I: Adding heat raises temp. Statement II: Positive work done increases volume.",
+        "options": [
+            "Statement I is true but Statement II is false",
+            "Both Statements are true",
+            "Both Statements are false",
+            "Statement I is false but Statement II is true"
+        ],
+        "correctOption": "Statement I is false but Statement II is true",
+        "id": 15
+    },
+    {
+        "question": "Fundamental frequency of a closed pipe = first overtone of open pipe. If open pipe is 60 cm, closed pipe is:",
+        "options": [
+            "15",
+            "20",
+            "25",
+            "60"
+        ],
+        "correctOption": "15",
+        "id": 16
+    },
+    {
+        "question": "For y = sin(\u03c9t) + cos(\u03c9t), the amplitude is:",
+        "options": [
+            "1",
+            "1.414",
+            "2",
+            "1.5"
+        ],
+        "correctOption": "1.414",
+        "id": 17
+    },
+    {
+        "question": "In SHM, when displacement is 1/3 amplitude, total energy to KE ratio is x/8. x is:",
+        "options": [
+            "9",
+            "6",
+            "2",
+            "7"
+        ],
+        "correctOption": "9",
+        "id": 18
+    },
+    {
+        "question": "A body in SHM with 10 cm amplitude is tripled in velocity at 5 cm displacement. New amplitude\u00b2 is:",
+        "options": [
+            "100",
+            "400",
+            "700",
+            "500"
+        ],
+        "correctOption": "700",
+        "id": 19
+    },
+    {
+        "question": "In SHM, if displacement is half amplitude, ratio of PE to KE is:",
+        "options": [
+            "1:1",
+            "1:4",
+            "2:1",
+            "1:3"
+        ],
+        "correctOption": "1:3",
+        "id": 20
+    },
+    {
+        "question": "A car accelerates uniformly from rest and covers a distance of 100 m in 5 s. Its acceleration is:",
+        "options": [
+            "8 m/s\u00b2",
+            "10 m/s\u00b2",
+            "5 m/s\u00b2",
+            "6 m/s\u00b2"
+        ],
+        "correctOption": "8 m/s\u00b2",
+        "id": 21
+    },
+    {
+        "question": "A vector of magnitude 10 units makes an angle of 60\u00b0 with the x-axis. Its y-component is:",
+        "options": [
+            "10\u221a3/2",
+            "10/2",
+            "5\u221a3",
+            "5"
+        ],
+        "correctOption": "10\u221a3/2",
+        "id": 22
+    },
+    {
+        "question": "The dimensional formula for pressure is:",
+        "options": [
+            "ML\u207b\u00b9T\u207b\u00b2",
+            "MLT\u207b\u00b2",
+            "ML\u00b2T\u207b\u00b2",
+            "M\u207b\u00b9L\u207b\u00b9T\u207b\u00b2"
+        ],
+        "correctOption": "ML\u207b\u00b9T\u207b\u00b2",
+        "id": 23
+    },
+    {
+        "question": "The moment of inertia of a solid sphere about its diameter is:",
+        "options": [
+            "2/5 MR\u00b2",
+            "3/5 MR\u00b2",
+            "1/2 MR\u00b2",
+            "2/3 MR\u00b2"
+        ],
+        "correctOption": "2/5 MR\u00b2",
+        "id": 24
+    },
+    {
+        "question": "Which law states that the net external torque on a system is equal to the rate of change of angular momentum?",
+        "options": [
+            "Newton's First Law",
+            "Conservation of Angular Momentum",
+            "Newton\u2019s Second Law for Rotation",
+            "Kepler's Second Law"
+        ],
+        "correctOption": "Newton\u2019s Second Law for Rotation",
+        "id": 25
+    },
+    {
+        "question": "A parallel plate capacitor having capacitance 12 pF is charged by a battery to 10 V. A porcelain slab of dielectric constant 6.5 is inserted. The work done by the capacitor on the slab is:",
+        "options": [
+            "508 pJ",
+            "692 pJ",
+            "560 pJ",
+            "600 pJ"
+        ],
+        "correctOption": "508 pJ",
+        "id": 26
+    },
+    {
+        "question": "A solid conducting sphere with charge Q is surrounded by an uncharged conducting hollow shell. If shell is given charge \u20134Q, the new potential difference is:",
+        "options": [
+            "4 V",
+            "V",
+            "2 V",
+            "\u20132 V"
+        ],
+        "correctOption": "V",
+        "id": 27
+    },
+    {
+        "question": "Two equal resistances in series consume 60 W. When in parallel, the power consumed is:",
+        "options": [
+            "240 W",
+            "120 W",
+            "60 W",
+            "30 W"
+        ],
+        "correctOption": "240 W",
+        "id": 28
+    },
+    {
+        "question": "An ideal battery of 4 V and resistance R in a potentiometer gives 5 mV across 10 cm of wire. Then R is:",
+        "options": [
+            "490",
+            "495",
+            "395",
+            "480"
+        ],
+        "correctOption": "395",
+        "id": 29
+    },
+    {
+        "question": "A capacitor of 9 pF is filled with two dielectrics (k1 = 3, k2 = 6). The new capacitance is:",
+        "options": [
+            "20.25 pF",
+            "1.8 pF",
+            "45 pF",
+            "40.5 pF"
+        ],
+        "correctOption": "40.5 pF",
+        "id": 30
+    },
+    {
+        "question": "The speed of light in the medium is:",
+        "options": [
+            "minimum on the axis of the beam",
+            "maximum on the axis of the beam",
+            "the same everywhere in the beam",
+            "directly proportional to the intensity I"
+        ],
+        "correctOption": "minimum on the axis of the beam",
+        "id": 31
+    },
+    {
+        "question": "As the beam enters the medium, it will:",
+        "options": [
+            "travel as a cylindrical beam",
+            "converge",
+            "diverge",
+            "diverge near axis and converge at periphery"
+        ],
+        "correctOption": "converge",
+        "id": 32
+    },
+    {
+        "question": "Eye is modeled as a refracting surface. Distance from surface for focus is:",
+        "options": [
+            "3.1 cm",
+            "4.0 cm",
+            "1 cm",
+            "2 cm"
+        ],
+        "correctOption": "3.1 cm",
+        "id": 33
+    },
+    {
+        "question": "In Young\u2019s experiment, path difference is (\u215b)\u03bb. Intensity ratio to central fringe is:",
+        "options": [
+            "0.80",
+            "0.94",
+            "0.85",
+            "0.74"
+        ],
+        "correctOption": "0.85",
+        "id": 34
+    },
+    {
+        "question": "Green light (5303 \u00c5) in double slit gives how many bright fringes between minima:",
+        "options": [
+            "10",
+            "04",
+            "09",
+            "05"
+        ],
+        "correctOption": "05",
+        "id": 35
+    },
+    {
+        "question": "Heavy nucleus breaks into two. If velocity ratio is 8:27, radius ratio is:",
+        "options": [
+            "3:2",
+            "2:3",
+            "4:9",
+            "8:27"
+        ],
+        "correctOption": "3:2",
+        "id": 36
+    },
+    {
+        "question": "In hydrogen atom transition to ground state:",
+        "options": [
+            "kinetic energy decreases, potential energy increases but total remains same",
+            "kinetic energy increases, potential and total decrease",
+            "kinetic and total decrease, potential increases",
+            "kinetic, potential and total energy decrease"
+        ],
+        "correctOption": "kinetic energy increases, potential and total decrease",
+        "id": 37
+    },
+    {
+        "question": "Photoelectric threshold wavelength is 380 nm. With 260 nm, KE is:",
+        "options": [
+            "1.5 eV",
+            "15.1 eV",
+            "4.5 eV",
+            "3.0 eV"
+        ],
+        "correctOption": "1.5 eV",
+        "id": 38
+    },
+    {
+        "question": "Work function is 4.0 eV. Longest wavelength to emit photoelectrons is:",
+        "options": [
+            "540 nm",
+            "400 nm",
+            "310 nm",
+            "220 nm"
+        ],
+        "correctOption": "310 nm",
+        "id": 39
+    },
+    {
+        "question": "Radioactive source gives 1600 cps at t=0, 100 cps at t=8s. At t=6s it gives:",
+        "options": [
+            "250",
+            "360",
+            "150",
+            "200"
+        ],
+        "correctOption": "200",
+        "id": 40
+    },
+    {
+        "question": "Needles of ferro-, para- and diamagnetic materials react to magnet by:",
+        "options": [
+            "attract N1 strongly, N2 weakly and repel N3 weakly",
+            "attract all three",
+            "attract N1 and N2 strongly but repel N3",
+            "attract N1 strongly, but repel N2 and N3 weakly"
+        ],
+        "correctOption": "attract N1 strongly, N2 weakly and repel N3 weakly",
+        "id": 41
+    },
+    {
+        "question": "Current in coil changes from 5A to 2A in 0.1 s, 50 V induced. Self-inductance is:",
+        "options": [
+            "0.67 H",
+            "1.67 H",
+            "3 H",
+            "6 H"
+        ],
+        "correctOption": "1.67 H",
+        "id": 42
+    },
+    {
+        "question": "Red LED emits 0.1W uniformly. Electric field amplitude at 1 m is:",
+        "options": [
+            "2.45 V/m",
+            "7.75 V/m",
+            "1.73 V/m",
+            "5.48 V/m"
+        ],
+        "correctOption": "2.45 V/m",
+        "id": 43
+    },
+    {
+        "question": "AC cannot be measured by DC ammeter because:",
+        "options": [
+            "A.C cannot pass",
+            "A.C changes direction",
+            "Avg value is zero",
+            "D.C. ammeter gets damaged"
+        ],
+        "correctOption": "Avg value is zero",
+        "id": 44
+    },
+    {
+        "question": "Phase difference between alternating current and emf is \u03c0/2. Not in circuit?",
+        "options": [
+            "LC",
+            "L alone",
+            "C alone",
+            "R, L"
+        ],
+        "correctOption": "R, L",
+        "id": 45
+    },
+    {
+        "question": "A long straight wire carries a current of 10 A. The magnetic field at a distance of 2 cm from the wire is:",
+        "options": [
+            "1 \u00d7 10\u207b\u2075 T",
+            "10\u207b\u2076 T",
+            "1 \u00d7 10\u207b\u2074 T",
+            "10\u207b\u2077 T"
+        ],
+        "correctOption": "1 \u00d7 10\u207b\u2074 T",
+        "id": 46
+    },
+    {
+        "question": "A charged particle enters a magnetic field perpendicular to its velocity. The path of the particle is:",
+        "options": [
+            "Circular",
+            "Linear",
+            "Parabolic",
+            "Elliptical"
+        ],
+        "correctOption": "Circular",
+        "id": 47
+    },
+    {
+        "question": "In an LCR series circuit, the resonance frequency is given by:",
+        "options": [
+            "1/(2\u03c0\u221a(LC))",
+            "1/(2\u03c0RC)",
+            "1/(2\u03c0LR)",
+            "1/(LC)"
+        ],
+        "correctOption": "1/(2\u03c0\u221a(LC))",
+        "id": 48
+    },
+    {
+        "question": "A radioactive substance has a half-life of 10 days. In how many days will only 1/8th of the substance remain?",
+        "options": [
+            "30",
+            "20",
+            "40",
+            "10"
+        ],
+        "correctOption": "30",
+        "id": 49
+    },
+    {
+        "question": "The energy of a photon is 3.3 \u00d7 10\u207b\u00b9\u2079 J. Its frequency is (Planck's constant h = 6.626 \u00d7 10\u207b\u00b3\u2074 Js):",
+        "options": [
+            "5 \u00d7 10\u00b9\u2074 Hz",
+            "3 \u00d7 10\u2078 Hz",
+            "2 \u00d7 10\u00b9\u2074 Hz",
+            "1 \u00d7 10\u2079 Hz"
+        ],
+        "correctOption": "5 \u00d7 10\u00b9\u2074 Hz",
+        "id": 50
+    }
+]

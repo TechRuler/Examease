@@ -1,0 +1,442 @@
+[
+    {
+        "question": "The vapor pressure of pure benzene and methyl benzene at 27\u00b0C is given as 80 Torr and 24 Torr, respectively. The mole fraction of methyl benzene in vapor phase, in equilibrium with an equimolar mixture of those two liquids is:",
+        "options": [
+            "0.23",
+            "0.89",
+            "0.99",
+            "0.73"
+        ],
+        "correctOption": "0.23",
+        "id": 1
+    },
+    {
+        "question": "If the degree of dissociation of aqueous solution of weak monobasic acid is 0.3, then the observed freezing point will be _________% higher than the expected/theoretical freezing point.",
+        "options": [
+            "23",
+            "30",
+            "99",
+            "60"
+        ],
+        "correctOption": "30",
+        "id": 2
+    },
+    {
+        "question": "The reaction at cathode in the cells commonly used in clocks involves:",
+        "options": [
+            "reduction of Mn from +4 to +3",
+            "oxidation of Mn from +2 to +7",
+            "oxidation of Mn from +3 to +4",
+            "reduction of Mn from +7 to +2"
+        ],
+        "correctOption": "reduction of Mn from +4 to +3",
+        "id": 3
+    },
+    {
+        "question": "Time required for 99.9% completion of a first order reaction is _________ times the time required for 90% completion.",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "9"
+        ],
+        "correctOption": "3",
+        "id": 4
+    },
+    {
+        "question": "Fusion of MnO2 with KOH and an oxidising agent gives dark green K2MnO4. Manganate ion on electrolytic oxidation in alkaline medium gives permanganate ion.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "II IS TRUE BUT I IS FALSE",
+        "id": 5
+    },
+    {
+        "question": "Coagulation of egg on heating is because of:",
+        "options": [
+            "Denaturation of protein occurs.",
+            "Biological properties of proteins remain unchanged",
+            "Breaking of peptide linkage in the primary structure of protein occurs",
+            "The secondary structure of protein remains unchanged"
+        ],
+        "correctOption": "Denaturation of protein occurs.",
+        "id": 6
+    },
+    {
+        "question": "Which of the following has the highest number of unpaired electrons?",
+        "options": [
+            "Sc",
+            "Cr",
+            "V",
+            "Ti"
+        ],
+        "correctOption": "Cr",
+        "id": 7
+    },
+    {
+        "question": "The higher oxidation states are more stable down the group among transition elements unlike p-block elements. Copper cannot liberate hydrogen from weak acids.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "BOTH I AND II ARE TRUE",
+        "id": 8
+    },
+    {
+        "question": "N(CH3)3 and P(CH3)3 can act as ligands. As N and P are from same group, the nature of bonding is always same with transition metals.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "I IS TRUE BUT II IS FALSE",
+        "id": 9
+    },
+    {
+        "question": "The incorrect statements regarding enzymes are:",
+        "options": [
+            "Enzymes are bio catalysts.",
+            "Enzymes are non-specific and cannot catalyse different kinds of reactions.",
+            "Most enzymes are globular proteins.",
+            "Enzyme - oxidase catalyses the hydrolysis of maltose into glucose."
+        ],
+        "correctOption": "Enzyme - oxidase catalyses the hydrolysis of maltose into glucose.",
+        "id": 10
+    },
+    {
+        "question": "Phenol treated with chloroform in presence of sodium hydroxide, then hydrolyzed in acid results in:",
+        "options": [
+            "2-Hydroxybenzaldehyde",
+            "Salicylic Acid",
+            "quinol",
+            "Benzene-1,2-diol"
+        ],
+        "correctOption": "2-Hydroxybenzaldehyde",
+        "id": 11
+    },
+    {
+        "question": "Common name of Benzene - 1,2 - diol is:",
+        "options": [
+            "o-cresol",
+            "catechol",
+            "quinol",
+            "resorcinol"
+        ],
+        "correctOption": "catechol",
+        "id": 12
+    },
+    {
+        "question": "High concentration of strong nucleophilic reagent with secondary alkyl halides will follow SN2 mechanism. Secondary alkyl halide with excess ethanol follows SN1 mechanism.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "BOTH I AND II ARE TRUE",
+        "id": 13
+    },
+    {
+        "question": "Haloalkanes react with KCN to form alkyl cyanides, but with AgCN form isocyanides. KCN and AgCN are highly ionic compounds.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "I IS TRUE BUT II IS FALSE",
+        "id": 14
+    },
+    {
+        "question": "p-nitrophenol is more acidic than m- and o-nitrophenol. Ethanol will give immediate turbidity with Lucas reagent.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "II IS TRUE BUT I IS FALSE",
+            "I IS TRUE BUT II IS FALSE"
+        ],
+        "correctOption": "I IS TRUE BUT II IS FALSE",
+        "id": 15
+    },
+    {
+        "question": "Which nitrogen compound does not give Lassaigne's test?",
+        "options": [
+            "Hydrazine",
+            "Urea",
+            "Glycene",
+            "Phenyl Hydrazine"
+        ],
+        "correctOption": "Hydrazine",
+        "id": 16
+    },
+    {
+        "question": "Kjeldahl method is applicable to pyridine. The nitrogen in pyridine can be converted to ammonium sulfate.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "II IS TRUE BUT I IS FALSE",
+            "I IS TRUE BUT II IS FALSE"
+        ],
+        "correctOption": "BOTH I AND II ARE FALSE",
+        "id": 17
+    },
+    {
+        "question": "The molecular formula of second homologue in the mono carboxylic acids series is:",
+        "options": [
+            "C2H2O4",
+            "C2H2O2",
+            "CH2O",
+            "C3H6O2"
+        ],
+        "correctOption": "C2H2O4",
+        "id": 18
+    },
+    {
+        "question": "Acidity of \u03b1-hydrogens of aldehydes and ketones is responsible for Aldol reaction. Benzaldehyde and ethanal will not give Cross-Aldol product.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "I IS TRUE BUT II IS FALSE",
+        "id": 19
+    },
+    {
+        "question": "Which compound will not give silver mirror with ammoniacal AgNO3?",
+        "options": [
+            "Formic acid",
+            "Formaldehyde",
+            "Benzaldehyde",
+            "Acetone"
+        ],
+        "correctOption": "Acetone",
+        "id": 20
+    },
+    {
+        "question": "The IUPAC name of CH3COCH(CH3)2 is",
+        "options": [
+            "3-methyl-2-butanone",
+            "2-methyl-3-butanone",
+            "4-methylisopropyl ketone",
+            "Isopropylmethyl ketone"
+        ],
+        "correctOption": "3-methyl-2-butanone",
+        "id": 21
+    },
+    {
+        "question": "The IUPAC name of CH3CHO is",
+        "options": [
+            "Acetaldehyde",
+            "Ethanal",
+            "Methyl aldehyde",
+            "Ethanol"
+        ],
+        "correctOption": "Ethanal",
+        "id": 22
+    },
+    {
+        "question": "Which one of the following conformation of cyclohexane is chiral?",
+        "options": [
+            "Twist boat",
+            "Rigid",
+            "Chair",
+            "Boat"
+        ],
+        "correctOption": "Twist boat",
+        "id": 23
+    },
+    {
+        "question": "The alkene that exhibits geometrical isomerism is:",
+        "options": [
+            "2\u2013methyl\u20132\u2013butene",
+            "Propene",
+            "2\u2013butene",
+            "2\u2013methylpropene"
+        ],
+        "correctOption": "2\u2013butene",
+        "id": 24
+    },
+    {
+        "question": "The gas liberated by the electrolysis of Dipotassium succinate solution is:",
+        "options": [
+            "Ethyne",
+            "Propene",
+            "Ethane",
+            "Ethene"
+        ],
+        "correctOption": "Ethene",
+        "id": 25
+    },
+    {
+        "question": "From the following statements regarding H2O2, choose the incorrect statement",
+        "options": [
+            "It can act only as an oxidizing agent",
+            "It has to be stored in plastic or wax-lined glass bottles in the dark",
+            "It has to be kept away from dust",
+            "It decomposes on exposure to light"
+        ],
+        "correctOption": "It can act only as an oxidizing agent",
+        "id": 26
+    },
+    {
+        "question": "The metal that cannot be obtained by electrolysis of an aqueous solution of its salt is",
+        "options": [
+            "Cr",
+            "Ca",
+            "Ag",
+            "Cu"
+        ],
+        "correctOption": "Ca",
+        "id": 27
+    },
+    {
+        "question": "Addition of phosphate fertilizers to water bodies causes",
+        "options": [
+            "enhanced growth of algae",
+            "increase in amount of dissolved oxygen in water",
+            "deposition of calcium phosphate",
+            "increase in fish population"
+        ],
+        "correctOption": "enhanced growth of algae",
+        "id": 28
+    },
+    {
+        "question": "Determine the total number of neutrons in three isotopes of hydrogen",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctOption": "3",
+        "id": 29
+    },
+    {
+        "question": "Chlorine water on standing loses its colour and forms:",
+        "options": [
+            "HCl and HClO2",
+            "HCl only",
+            "HOCl and HOCl2",
+            "HCl and HOCl"
+        ],
+        "correctOption": "HCl and HOCl",
+        "id": 30
+    },
+    {
+        "question": "Find the volume of 1 g of H2 gas in litres at N.T.P",
+        "options": [
+            "11.2",
+            "22.4",
+            "2.24",
+            "112"
+        ],
+        "correctOption": "11.2",
+        "id": 31
+    },
+    {
+        "question": "Which one of the following substances has the highest proton affinity?",
+        "options": [
+            "H2S",
+            "NH3",
+            "PH3",
+            "H2O"
+        ],
+        "correctOption": "NH3",
+        "id": 32
+    },
+    {
+        "question": "\u2206U is equal to",
+        "options": [
+            "adiabatic work",
+            "isothermal work",
+            "isochoric work",
+            "isobaric work"
+        ],
+        "correctOption": "adiabatic work",
+        "id": 33
+    },
+    {
+        "question": "The process with negative entropy change is",
+        "options": [
+            "dissolution of iodine in water",
+            "sublimation of dry ice",
+            "synthesis of ammonia from N2 and H2",
+            "dissociation of CaSO4(s) to CaO(s) and SO3(g)"
+        ],
+        "correctOption": "synthesis of ammonia from N2 and H2",
+        "id": 34
+    },
+    {
+        "question": "Number of atoms in the following samples of substances is the largest in:",
+        "options": [
+            "127.0g of iodine",
+            "48.0g of magnesium",
+            "71.0g of chlorine",
+            "4.0g of hydrogen"
+        ],
+        "correctOption": "4.0g of hydrogen",
+        "id": 35
+    },
+    {
+        "question": "The shape of carbocation is:",
+        "options": [
+            "trigonal planar",
+            "tetrahedral",
+            "diagonal",
+            "linear"
+        ],
+        "correctOption": "trigonal planar",
+        "id": 36
+    },
+    {
+        "question": "The incorrect postulates of the Dalton's atomic theory are:",
+        "options": [
+            "Atoms of different elements differ in mass.",
+            "Matter consists of divisible atoms.",
+            "Compounds are formed when atoms of different element combine in a fixed ratio.",
+            "Chemical reactions involve reorganisation of atoms."
+        ],
+        "correctOption": "Matter consists of divisible atoms.",
+        "id": 37
+    },
+    {
+        "question": "At constant temperature, a gas is at a pressure of 940.3 mm Hg. The pressure at which its volume decreases by 40% is __________ mm Hg.",
+        "options": [
+            "1567",
+            "1600",
+            "2000",
+            "3527"
+        ],
+        "correctOption": "1567",
+        "id": 38
+    },
+    {
+        "question": "The element having the highest first ionization enthalpy is",
+        "options": [
+            "C",
+            "Al",
+            "N",
+            "Si"
+        ],
+        "correctOption": "N",
+        "id": 39
+    },
+    {
+        "question": "Statement I: Fluorine has most negative electron gain enthalpy in its group. Statement II: Oxygen has least negative electron gain enthalpy in its group.",
+        "options": [
+            "BOTH I AND II ARE TRUE",
+            "BOTH I AND II ARE FALSE",
+            "I IS TRUE BUT II IS FALSE",
+            "II IS TRUE BUT I IS FALSE"
+        ],
+        "correctOption": "II IS TRUE BUT I IS FALSE",
+        "id": 40
+    }
+]

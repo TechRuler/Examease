@@ -1,0 +1,51 @@
+{
+    "App":{
+        "primary-background-color":"#2C313C",
+        "secondary-background-color":"#282C34",
+        "foreground-color":"#FFFFFF"
+    },
+    "Button":{
+        "background-color":"#282C34",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",12,"italic"],
+        "relief":"ridge",
+        "button-hover":"#2C313C",
+        "border-width":2,
+        "border-color":"#282C34",
+        "border-hover-color":"lightblue"
+    },
+    "App-title":{
+        "background-color":"#282C34",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",20,"bold"],
+        "relief":"ridge",
+        "border-width":0
+    },
+    "Label":{
+        "background-color":"#282C34",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",12,"italic"],
+        "border-width":0
+    },
+    "Entry":{
+        "background-color":"#2C313C",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",12,"italic"],
+        "border-width":0
+    },
+    
+    "Empty-Label":{
+        "background-color":"#2C313C",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",40,"bold"],
+        "relief":"ridge",
+        "border-width":0
+    },
+    "dropdown":{
+        "background-color": "#1E2127",
+        "foreground-color":"#FFFFFF",
+        "font":["Consolas",12,"italic"],
+        "relief":"ridge",
+        "hover-color":"#2C313C"
+    }
+}
