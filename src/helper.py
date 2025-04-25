@@ -14,7 +14,6 @@ class DropdownMenu(Frame):
        
         return option
     def hover(self,color1,color2,option):
-        # option = event.widget
         option.bind("<Enter>", lambda e: option.config(background=color1))
         option.bind("<Leave>", lambda e: option.config(background=color2))
     def show(self,x,y):
@@ -29,6 +28,9 @@ class CustomButton(Label):
         self.config(text=self.text)
 
         self.bind("<Button-1>",lambda event=None:self.command())
+    def hover(self,color1,color2,option):
+        option.bind("<Enter>", lambda e: option.config(background=color1))
+        option.bind("<Leave>", lambda e: option.config(background=color2))
     def add_command(self,command):
         self.command = command
         

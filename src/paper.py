@@ -6,8 +6,8 @@ class Subject(Frame):
         self.master = master
         self.setting = setting
         self.Subject = Subject
-        self.answered_color = "spring green"
-        self.selected_box_color = "steelblue"
+        self.answered_color = self.setting["exam-window"]["selected_answer_color"]
+        self.selected_box_color = self.setting["exam-window"]["selected_box"]
         self.buttons_and_Subject_question = {}# button(1 to 30) and Subject dict
         self.Subject_questions_and_selected_options = {}# button(1 to 30) and Subject dict[question:[3,answerd]] selected(answered)
         self.selected_Subject_box = None # current button 

@@ -142,8 +142,9 @@ class Login(Toplevel):
             "name": name,
             "selected": 1,
             "age": age,
+            "selected-theme":"theme/Dark.json",
             "password":password,
-            "path": f"src/{id}-papers",
+            "path": f"data/{id}-papers",
             "number-of-papers": 0,
             "papers-dictionary": []
         }

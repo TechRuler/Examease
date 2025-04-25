@@ -1,0 +1,56 @@
+{
+    "App": {
+        "primary-background-color": "#1B1F30",
+        "secondary-background-color": "#2A2F45",
+        "foreground-color": "#F72585"
+    },
+    "Button": {
+        "background-color": "#2A2F45",
+        "foreground-color": "#F72585",
+        "font": ["Fira Code", 12, "bold"],
+        "relief": "ridge",
+        "button-hover": "#3D4261",
+        "border-width": 2,
+        "border-color": "#F72585",
+        "border-hover-color": "#FFFFFF"
+    },
+    "App-title": {
+        "background-color": "#2A2F45",
+        "foreground-color": "#F72585",
+        "font": ["Fira Code", 20, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "Label": {
+        "background-color": "#1B1F30",
+        "foreground-color": "#F72585",
+        "font": ["Fira Code", 12, "normal"],
+        "border-width": 0
+    },
+    "Entry": {
+        "background-color": "#1B1F30",
+        "foreground-color": "#FFFFFF",
+        "font": ["Fira Code", 12, "normal"],
+        "border-width": 1
+    },
+    "Empty-Label": {
+        "background-color": "#1B1F30",
+        "foreground-color": "#F72585",
+        "font": ["Fira Code", 36, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "dropdown": {
+        "background-color": "#2A2F45",
+        "foreground-color": "#F72585",
+        "font": ["Fira Code", 12, "normal"],
+        "relief": "flat",
+        "hover-color": "#3D4261"
+    },
+    "exam-window": {
+        "selected_answer_color": "#F72585",
+        "correct_answer_color": "#3EFFB9",
+        "wrong_answer_color": "#FF2E63",
+        "selected_box": "#9B5DE5"
+    }
+}

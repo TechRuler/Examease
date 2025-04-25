@@ -6,6 +6,7 @@ import json
 from datetime import datetime, timedelta
 from helper import update_json_value
 from paper import Subject
+from components import ViewMarks
 class ExamWindow(Toplevel):
     def __init__(self, master,setting, account, datas,exam_id,exam_start_time, start_button,element_label):
         super().__init__(master)  # Fixed the super() call
@@ -24,12 +25,7 @@ class ExamWindow(Toplevel):
         self.chemistry = datas.get("Chemistry", {})
         self.maths = datas.get("Maths", {})
         self.total_exam_time = 180*60
-        # style = ttk.Style()
-        # style.theme_use('default')
-        # style.configure('TNotebook', background=self.setting["App"]["secondary-background-color"], borderwidth=0)
-        # style.configure('TNotebook.Tab', background=self.setting["dropdown"]["background-color"], foreground=self.setting["App"]["foreground-color"], font=self.setting["Button"]["font"], padding=(10, 5))
-        # style.map('TNotebook.Tab', background=[('selected', self.setting["App"]["primary-background-color"],)], foreground=[('selected', self.setting["App"]["foreground-color"])])
-
+        
         self.upper_frame = Frame(self, height=60, background=self.setting["App"]["secondary-background-color"])
         self.upper_frame.pack(fill='x')
         self.upper_frame.pack_propagate(0)
@@ -188,7 +184,7 @@ class ExamWindow(Toplevel):
                         cursor="hand2",
                         padx=5,
                         pady=5,
-                        command=lambda:self.master.view_marks(self.exam_id)
+                        command=lambda:ViewMarks(self.master,self.setting,self.exam_id)
                     )
                         self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
 
@@ -244,7 +240,7 @@ class ExamWindow(Toplevel):
                         cursor="hand2",
                         padx=5,
                         pady=5,
-                        command=lambda:self.master.view_marks(self.exam_id)
+                        command=lambda:ViewMarks(self.master,self.setting,self.exam_id)
                     )
                 self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
                 break
@@ -287,7 +283,7 @@ class ExamWindow(Toplevel):
                         cursor="hand2",
                         padx=5,
                         pady=5,
-                        command=lambda:self.master.view_marks(self.exam_id)
+                        command=lambda:ViewMarks(self,self.setting,self.exam_id)
                     )
                     self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
                     break

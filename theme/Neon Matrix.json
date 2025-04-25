@@ -1,0 +1,56 @@
+{
+    "App": {
+        "primary-background-color": "#0F0F0F",
+        "secondary-background-color": "#1A1A1A",
+        "foreground-color": "#00FF9F"
+    },
+    "Button": {
+        "background-color": "#1A1A1A",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 12, "bold"],
+        "relief": "flat",
+        "button-hover": "#00FF9F",
+        "border-width": 2,
+        "border-color": "#00FF9F",
+        "border-hover-color": "#FFFFFF"
+    },
+    "App-title": {
+        "background-color": "#0F0F0F",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 20, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "Label": {
+        "background-color": "#0F0F0F",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 12, "italic"],
+        "border-width": 0
+    },
+    "Entry": {
+        "background-color": "#000000",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 12, "normal"],
+        "border-width": 1
+    },
+    "Empty-Label": {
+        "background-color": "#0F0F0F",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 36, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "dropdown": {
+        "background-color": "#1A1A1A",
+        "foreground-color": "#00FF9F",
+        "font": ["Courier New", 12, "italic"],
+        "relief": "flat",
+        "hover-color": "#333333"
+    },
+    "exam-window": {
+        "selected_answer_color": "#00FF9F",
+        "correct_answer_color": "#00FF9F",
+        "wrong_answer_color": "#FF2E63",
+        "selected_box": "#2CFFBF"
+    }
+}

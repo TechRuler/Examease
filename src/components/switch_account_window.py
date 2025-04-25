@@ -78,9 +78,11 @@ class SwitchAccount(Toplevel):
         for element in self.master.element_list:
             element.pack_forget()
         self.master.account = self.master.check_ids()
+        print(self.master.account["selected-theme"])
         userid =  "Login" if self.master.account is None else self.master.account.get("id", "Unknown")
         self.master.profile_label.config(text=userid)
         self.master.check_paper_exist()
+        self.master.change_color()
         self.destroy()
     def change_to_login_window(self):
         from .Login_window import Login

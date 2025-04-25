@@ -1,4 +1,5 @@
-from tkinter import Toplevel,Frame,Label,Entry
+from tkinter import Toplevel,Frame,Label
+import os 
 class ProfileWindow(Toplevel):
     def __init__(self,master,setting,**kwarg):
         super().__init__(master,**kwarg)
@@ -38,6 +39,19 @@ class ProfileWindow(Toplevel):
         age_label = Label(
             profile_container,
             text=f"Age :- {self.master.account["age"]}",
+            background=self.setting["Label"]["background-color"],
+            foreground=self.setting["Label"]["foreground-color"],
+            font=self.setting["Label"]["font"],
+            borderwidth=self.setting["Label"]["border-width"],
+            anchor='w',
+            justify='left',
+            width=30,
+            padx=10,
+            wraplength=300
+        )
+        theme_label = Label(
+            profile_container,
+            text=f"Current Theme :- {os.path.basename(self.master.account["selected-theme"]).split('.')[0]}",
             background=self.setting["Label"]["background-color"],
             foreground=self.setting["Label"]["foreground-color"],
             font=self.setting["Label"]["font"],
@@ -93,6 +107,8 @@ class ProfileWindow(Toplevel):
         name_label.pack_propagate(0)
         age_label.pack()
         age_label.pack_propagate(0)
+        theme_label.pack()
+        theme_label.pack_propagate(0)
         password_label.pack()
         password_label.pack_propagate(0)
         path_label.pack()

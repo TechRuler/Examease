@@ -1,0 +1,56 @@
+{
+    "App": {
+        "primary-background-color": "#1D1128",
+        "secondary-background-color": "#362659",
+        "foreground-color": "#F8F0FB"
+    },
+    "Button": {
+        "background-color": "#4C3575",
+        "foreground-color": "#E5D1FA",
+        "font": ["Georgia", 12, "italic"],
+        "relief": "groove",
+        "button-hover": "#5D3A9B",
+        "border-width": 2,
+        "border-color": "#5D3A9B",
+        "border-hover-color": "#D5A6FF"
+    },
+    "App-title": {
+        "background-color": "#362659",
+        "foreground-color": "#E0C3FC",
+        "font": ["Georgia", 20, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "Label": {
+        "background-color": "#362659",
+        "foreground-color": "#E5D1FA",
+        "font": ["Georgia", 12, "italic"],
+        "border-width": 0
+    },
+    "Entry": {
+        "background-color": "#1D1128",
+        "foreground-color": "#F8F0FB",
+        "font": ["Georgia", 12, "italic"],
+        "border-width": 1
+    },
+    "Empty-Label": {
+        "background-color": "#1D1128",
+        "foreground-color": "#E0C3FC",
+        "font": ["Georgia", 36, "bold"],
+        "relief": "flat",
+        "border-width": 0
+    },
+    "dropdown": {
+        "background-color": "#4C3575",
+        "foreground-color": "#F8F0FB",
+        "font": ["Georgia", 12, "italic"],
+        "relief": "groove",
+        "hover-color": "#5D3A9B"
+    },
+    "exam-window": {
+        "selected_answer_color": "#B388EB",
+        "correct_answer_color": "#A5F1E9",
+        "wrong_answer_color": "#FF6F91",
+        "selected_box": "#9370DB"
+    }
+}

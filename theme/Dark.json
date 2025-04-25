@@ -47,5 +47,11 @@
         "font":["Consolas",12,"italic"],
         "relief":"ridge",
         "hover-color":"#2C313C"
+    },
+    "exam-window":{
+        "selected_answer_color":"spring green",
+        "correct_answer_color":"spring green",
+        "wrong_answer_color":"red",
+        "selected_box":"steelblue"
     }
 }
