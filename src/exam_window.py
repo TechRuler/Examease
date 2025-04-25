@@ -1,13 +1,11 @@
-from tkinter import Tk, Toplevel, Label, messagebox,Frame
+from tkinter import Toplevel, Label, messagebox,Frame
 from helper import CustomButton
 from tkinter import ttk
 import os
 import json
 from datetime import datetime, timedelta
 from helper import update_json_value
-from physics import Physics
-from chemistry import Chemistry
-from maths import Maths 
+from paper import Subject
 class ExamWindow(Toplevel):
     def __init__(self, master,setting, account, datas,exam_id,exam_start_time, start_button,element_label):
         super().__init__(master)  # Fixed the super() call
@@ -26,11 +24,11 @@ class ExamWindow(Toplevel):
         self.chemistry = datas.get("Chemistry", {})
         self.maths = datas.get("Maths", {})
         self.total_exam_time = 180*60
-        style = ttk.Style()
-        style.theme_use('default')
-        style.configure('TNotebook', background=self.setting["App"]["secondary-background-color"], borderwidth=0)
-        style.configure('TNotebook.Tab', background=self.setting["dropdown"]["background-color"], foreground=self.setting["App"]["foreground-color"], font=self.setting["Button"]["font"], padding=(10, 5))
-        style.map('TNotebook.Tab', background=[('selected', self.setting["App"]["primary-background-color"],)], foreground=[('selected', self.setting["App"]["foreground-color"])])
+        # style = ttk.Style()
+        # style.theme_use('default')
+        # style.configure('TNotebook', background=self.setting["App"]["secondary-background-color"], borderwidth=0)
+        # style.configure('TNotebook.Tab', background=self.setting["dropdown"]["background-color"], foreground=self.setting["App"]["foreground-color"], font=self.setting["Button"]["font"], padding=(10, 5))
+        # style.map('TNotebook.Tab', background=[('selected', self.setting["App"]["primary-background-color"],)], foreground=[('selected', self.setting["App"]["foreground-color"])])
 
         self.upper_frame = Frame(self, height=60, background=self.setting["App"]["secondary-background-color"])
         self.upper_frame.pack(fill='x')
@@ -79,15 +77,15 @@ class ExamWindow(Toplevel):
         self.notebook.add(self.maths_frame, text="maths")
         self.maths_frame.pack_propagate(0)
 
-        self.physics_window = Physics(self.physics_frame, self.setting, self.physics)
+        self.physics_window = Subject(self.physics_frame, self.setting, self.physics)
         self.physics_window.pack(fill='both', expand=True)
         self.physics_window.set_submit_function(self.submit_function)
 
-        self.chemistry_window = Chemistry(self.chemistry_frame, self.setting, self.chemistry)
+        self.chemistry_window = Subject(self.chemistry_frame, self.setting, self.chemistry)
         self.chemistry_window.pack(fill='both', expand=True)
         self.chemistry_window.set_submit_function(self.submit_function)
 
-        self.maths_window = Maths(self.maths_frame, self.setting, self.maths)
+        self.maths_window = Subject(self.maths_frame, self.setting, self.maths)
         self.maths_window.pack(fill='both', expand=True)
         self.maths_window.set_submit_function(self.submit_function)
 
@@ -110,27 +108,27 @@ class ExamWindow(Toplevel):
     def load_exam_progress(self):
         solved_paper,time = self.load_saved_data()
         if solved_paper != None:
-            self.physics_window.physics_questions_and_selected_options = solved_paper["Physics"]
+            self.physics_window.Subject_questions_and_selected_options = solved_paper["Physics"]
             
-            self.chemistry_window.chemistry_questions_and_selected_options = solved_paper["Chemistry"]
+            self.chemistry_window.Subject_questions_and_selected_options = solved_paper["Chemistry"]
             
-            self.maths_window.maths_questions_and_selected_options = solved_paper["Maths"] 
+            self.maths_window.Subject_questions_and_selected_options = solved_paper["Maths"] 
             
     
-            for question in self.physics_window.physics_questions_and_selected_options.keys():
-                for button, data in self.physics_window.buttons_and_physics_question.items():
+            for question in self.physics_window.Subject_questions_and_selected_options.keys():
+                for button, data in self.physics_window.buttons_and_Subject_question.items():
                     if data["question"] == question:
-                        self.physics_window.update_physics_question(question,data["options"])
+                        self.physics_window.update_Subject_question(question,data["options"])
             
-            for question in self.chemistry_window.chemistry_questions_and_selected_options.keys():
-                for button, data in self.chemistry_window.buttons_and_chemistry_question.items():
+            for question in self.chemistry_window.Subject_questions_and_selected_options.keys():
+                for button, data in self.chemistry_window.buttons_and_Subject_question.items():
                     if data["question"] == question:
-                        self.chemistry_window.update_chemistry_question(question,data["options"])
+                        self.chemistry_window.update_Subject_question(question,data["options"])
     
-            for question in self.maths_window.maths_questions_and_selected_options.keys():
-                for button, data in self.maths_window.buttons_and_maths_question.items():
+            for question in self.maths_window.Subject_questions_and_selected_options.keys():
+                for button, data in self.maths_window.buttons_and_Subject_question.items():
                     if data["question"] == question:
-                        self.maths_window.update_maths_question(question,data["options"])
+                        self.maths_window.update_Subject_question(question,data["options"])
             current_time = datetime.now()
             exam_started_time = datetime.strptime(time, "%Y-%m-%d-%H:%M:%S")
             
@@ -160,8 +158,8 @@ class ExamWindow(Toplevel):
                     paper = list(paper)  # Convert tuple to list
                     paper[1] = f"pending {self.exam_start_time}"
                     paper[4] = int(paper[4]) + 1
-                    if paper[2].split("--"):
-                        paper[2] = paper[2].split("--")[0]
+                    # if paper[2].split("--"):
+                    #     paper[2] = paper[2].split("--")[0]
                     self.account["papers-dictionary"][i] = paper  # Save back updated list
                     
                     self.element_label.config(text=f"{paper[2]}--(Resume the exam in 3 hours from the time exam started)")
@@ -203,13 +201,13 @@ class ExamWindow(Toplevel):
         physics_solved = {}
         chemistry_solved = {}
         maths_solved = {} 
-        for question, data in self.physics_window.physics_questions_and_selected_options.items(): 
+        for question, data in self.physics_window.Subject_questions_and_selected_options.items(): 
             physics_solved[question] = data
 
-        for question, data in self.chemistry_window.chemistry_questions_and_selected_options.items(): 
+        for question, data in self.chemistry_window.Subject_questions_and_selected_options.items(): 
             chemistry_solved[question] = data
 
-        for question, data in self.maths_window.maths_questions_and_selected_options.items():  
+        for question, data in self.maths_window.Subject_questions_and_selected_options.items():  
             maths_solved[question] = data 
 
         solved_paper["Physics"] = physics_solved
