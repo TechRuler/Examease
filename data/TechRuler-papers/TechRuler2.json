@@ -1,0 +1,998 @@
+[
+    [
+        {
+            "question": "A radioactive substance has a half-life of 10 days. In how many days will only 1/8th of the substance remain?",
+            "options": [
+                "30",
+                "20",
+                "40",
+                "10"
+            ],
+            "correctOption": "30",
+            "id": 49
+        },
+        {
+            "question": "A particle of mass 500 g has velocity (2t i + 3t\u00b2 j) m/s. Force at t=1s is (i + xj). Find x:",
+            "options": [
+                "4",
+                "3",
+                "6",
+                "2"
+            ],
+            "correctOption": "3",
+            "id": 2
+        },
+        {
+            "question": "In SHM, when displacement is 1/3 amplitude, total energy to KE ratio is x/8. x is:",
+            "options": [
+                "9",
+                "6",
+                "2",
+                "7"
+            ],
+            "correctOption": "9",
+            "id": 18
+        },
+        {
+            "question": "Which law states that the net external torque on a system is equal to the rate of change of angular momentum?",
+            "options": [
+                "Newton's First Law",
+                "Conservation of Angular Momentum",
+                "Newton\u2019s Second Law for Rotation",
+                "Kepler's Second Law"
+            ],
+            "correctOption": "Newton\u2019s Second Law for Rotation",
+            "id": 25
+        },
+        {
+            "question": "A solid conducting sphere with charge Q is surrounded by an uncharged conducting hollow shell. If shell is given charge \u20134Q, the new potential difference is:",
+            "options": [
+                "4 V",
+                "V",
+                "2 V",
+                "\u20132 V"
+            ],
+            "correctOption": "V",
+            "id": 27
+        },
+        {
+            "question": "A vector of magnitude 10 units makes an angle of 60\u00b0 with the x-axis. Its y-component is:",
+            "options": [
+                "10\u221a3/2",
+                "10/2",
+                "5\u221a3",
+                "5"
+            ],
+            "correctOption": "10\u221a3/2",
+            "id": 22
+        },
+        {
+            "question": "Two projectiles A and B are thrown at 40 m/s and 60 m/s at angles 30\u00b0 and 60\u00b0. The ratio of their ranges is:",
+            "options": [
+                "4 : 9",
+                "2 : 3",
+                "1 : 1",
+                "3 : 2"
+            ],
+            "correctOption": "4 : 9",
+            "id": 1
+        },
+        {
+            "question": "A charged particle enters a magnetic field perpendicular to its velocity. The path of the particle is:",
+            "options": [
+                "Circular",
+                "Linear",
+                "Parabolic",
+                "Elliptical"
+            ],
+            "correctOption": "Circular",
+            "id": 47
+        },
+        {
+            "question": "Moment of inertia of a semicircular ring about axis through center perpendicular to plane is xMR\u00b2. Find x:",
+            "options": [
+                "4",
+                "1",
+                "6",
+                "2"
+            ],
+            "correctOption": "1",
+            "id": 7
+        },
+        {
+            "question": "Eye is modeled as a refracting surface. Distance from surface for focus is:",
+            "options": [
+                "3.1 cm",
+                "4.0 cm",
+                "1 cm",
+                "2 cm"
+            ],
+            "correctOption": "3.1 cm",
+            "id": 33
+        },
+        {
+            "question": "Photoelectric threshold wavelength is 380 nm. With 260 nm, KE is:",
+            "options": [
+                "1.5 eV",
+                "15.1 eV",
+                "4.5 eV",
+                "3.0 eV"
+            ],
+            "correctOption": "1.5 eV",
+            "id": 38
+        },
+        {
+            "question": "A body cools from 80\u00b0C to 60\u00b0C in 5 min. Room temp is 20\u00b0C. Time to cool from 60\u00b0C to 40\u00b0C:",
+            "options": [
+                "500 s",
+                "25 / 3 s",
+                "450 s",
+                "420 s"
+            ],
+            "correctOption": "500 s",
+            "id": 11
+        },
+        {
+            "question": "In SHM, if displacement is half amplitude, ratio of PE to KE is:",
+            "options": [
+                "1:1",
+                "1:4",
+                "2:1",
+                "1:3"
+            ],
+            "correctOption": "1:3",
+            "id": 20
+        },
+        {
+            "question": "The speed of light in the medium is:",
+            "options": [
+                "minimum on the axis of the beam",
+                "maximum on the axis of the beam",
+                "the same everywhere in the beam",
+                "directly proportional to the intensity I"
+            ],
+            "correctOption": "minimum on the axis of the beam",
+            "id": 31
+        },
+        {
+            "question": "Temp of gas is -78\u00b0C and avg KE is k. Temp for avg KE = 2k is:",
+            "options": [
+                "117",
+                "320",
+                "160",
+                "-157"
+            ],
+            "correctOption": "117",
+            "id": 13
+        },
+        {
+            "question": "A capacitor of 9 pF is filled with two dielectrics (k1 = 3, k2 = 6). The new capacitance is:",
+            "options": [
+                "20.25 pF",
+                "1.8 pF",
+                "45 pF",
+                "40.5 pF"
+            ],
+            "correctOption": "40.5 pF",
+            "id": 30
+        },
+        {
+            "question": "Four particles A, B, C, D have same momentum. Which has max kinetic energy?",
+            "options": [
+                "D",
+                "C",
+                "A",
+                "B"
+            ],
+            "correctOption": "A",
+            "id": 4
+        },
+        {
+            "question": "Aluminium rod with Y = 7.0\u00d710\u00b9\u2070 N/m\u00b2 undergoes strain 0.04%. Energy per unit volume is:",
+            "options": [
+                "5600",
+                "8400",
+                "2800",
+                "11200"
+            ],
+            "correctOption": "5600",
+            "id": 8
+        },
+        {
+            "question": "For y = sin(\u03c9t) + cos(\u03c9t), the amplitude is:",
+            "options": [
+                "1",
+                "1.414",
+                "2",
+                "1.5"
+            ],
+            "correctOption": "1.414",
+            "id": 17
+        },
+        {
+            "question": "Needles of ferro-, para- and diamagnetic materials react to magnet by:",
+            "options": [
+                "attract N1 strongly, N2 weakly and repel N3 weakly",
+                "attract all three",
+                "attract N1 and N2 strongly but repel N3",
+                "attract N1 strongly, but repel N2 and N3 weakly"
+            ],
+            "correctOption": "attract N1 strongly, N2 weakly and repel N3 weakly",
+            "id": 41
+        },
+        {
+            "question": "Phase difference between alternating current and emf is \u03c0/2. Not in circuit?",
+            "options": [
+                "LC",
+                "L alone",
+                "C alone",
+                "R, L"
+            ],
+            "correctOption": "R, L",
+            "id": 45
+        },
+        {
+            "question": "A long straight wire carries a current of 10 A. The magnetic field at a distance of 2 cm from the wire is:",
+            "options": [
+                "1 \u00d7 10\u207b\u2075 T",
+                "10\u207b\u2076 T",
+                "1 \u00d7 10\u207b\u2074 T",
+                "10\u207b\u2077 T"
+            ],
+            "correctOption": "1 \u00d7 10\u207b\u2074 T",
+            "id": 46
+        },
+        {
+            "question": "Weight of a body on Earth is 400 N. At half Earth's radius depth, it will be:",
+            "options": [
+                "200 N",
+                "300 N",
+                "100 N",
+                "Zero"
+            ],
+            "correctOption": "200 N",
+            "id": 6
+        },
+        {
+            "question": "In hydrogen atom transition to ground state:",
+            "options": [
+                "kinetic energy decreases, potential energy increases but total remains same",
+                "kinetic energy increases, potential and total decrease",
+                "kinetic and total decrease, potential increases",
+                "kinetic, potential and total energy decrease"
+            ],
+            "correctOption": "kinetic energy increases, potential and total decrease",
+            "id": 37
+        },
+        {
+            "question": "The energy of a photon is 3.3 \u00d7 10\u207b\u00b9\u2079 J. Its frequency is (Planck's constant h = 6.626 \u00d7 10\u207b\u00b3\u2074 Js):",
+            "options": [
+                "5 \u00d7 10\u00b9\u2074 Hz",
+                "3 \u00d7 10\u2078 Hz",
+                "2 \u00d7 10\u00b9\u2074 Hz",
+                "1 \u00d7 10\u2079 Hz"
+            ],
+            "correctOption": "5 \u00d7 10\u00b9\u2074 Hz",
+            "id": 50
+        },
+        {
+            "question": "Engine between boiling and freezing points of water. Efficiency:",
+            "options": [
+                "2, 3 and 4 only",
+                "2 and 3 only",
+                "2 and 4 only",
+                "1 and 2 only"
+            ],
+            "correctOption": "2 and 4 only",
+            "id": 14
+        },
+        {
+            "question": "An ideal battery of 4 V and resistance R in a potentiometer gives 5 mV across 10 cm of wire. Then R is:",
+            "options": [
+                "490",
+                "495",
+                "395",
+                "480"
+            ],
+            "correctOption": "395",
+            "id": 29
+        },
+        {
+            "question": "Statement I: Adding heat raises temp. Statement II: Positive work done increases volume.",
+            "options": [
+                "Statement I is true but Statement II is false",
+                "Both Statements are true",
+                "Both Statements are false",
+                "Statement I is false but Statement II is true"
+            ],
+            "correctOption": "Statement I is false but Statement II is true",
+            "id": 15
+        },
+        {
+            "question": "If wire length doubled and cross-section halved, Young's modulus becomes:",
+            "options": [
+                "Y/4",
+                "4Y",
+                "Y",
+                "2Y"
+            ],
+            "correctOption": "Y",
+            "id": 9
+        },
+        {
+            "question": "In an LCR series circuit, the resonance frequency is given by:",
+            "options": [
+                "1/(2\u03c0\u221a(LC))",
+                "1/(2\u03c0RC)",
+                "1/(2\u03c0LR)",
+                "1/(LC)"
+            ],
+            "correctOption": "1/(2\u03c0\u221a(LC))",
+            "id": 48
+        }
+    ],
+    [
+        {
+            "question": "The higher oxidation states are more stable down the group among transition elements unlike p-block elements. Copper cannot liberate hydrogen from weak acids.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "BOTH I AND II ARE TRUE",
+            "id": 8
+        },
+        {
+            "question": "p-nitrophenol is more acidic than m- and o-nitrophenol. Ethanol will give immediate turbidity with Lucas reagent.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "II IS TRUE BUT I IS FALSE",
+                "I IS TRUE BUT II IS FALSE"
+            ],
+            "correctOption": "I IS TRUE BUT II IS FALSE",
+            "id": 15
+        },
+        {
+            "question": "The metal that cannot be obtained by electrolysis of an aqueous solution of its salt is",
+            "options": [
+                "Cr",
+                "Ca",
+                "Ag",
+                "Cu"
+            ],
+            "correctOption": "Ca",
+            "id": 27
+        },
+        {
+            "question": "Fusion of MnO2 with KOH and an oxidising agent gives dark green K2MnO4. Manganate ion on electrolytic oxidation in alkaline medium gives permanganate ion.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "II IS TRUE BUT I IS FALSE",
+            "id": 5
+        },
+        {
+            "question": "At constant temperature, a gas is at a pressure of 940.3 mm Hg. The pressure at which its volume decreases by 40% is __________ mm Hg.",
+            "options": [
+                "1567",
+                "1600",
+                "2000",
+                "3527"
+            ],
+            "correctOption": "1567",
+            "id": 38
+        },
+        {
+            "question": "Which compound will not give silver mirror with ammoniacal AgNO3?",
+            "options": [
+                "Formic acid",
+                "Formaldehyde",
+                "Benzaldehyde",
+                "Acetone"
+            ],
+            "correctOption": "Acetone",
+            "id": 20
+        },
+        {
+            "question": "Statement I: Fluorine has most negative electron gain enthalpy in its group. Statement II: Oxygen has least negative electron gain enthalpy in its group.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "II IS TRUE BUT I IS FALSE",
+            "id": 40
+        },
+        {
+            "question": "Find the volume of 1 g of H2 gas in litres at N.T.P",
+            "options": [
+                "11.2",
+                "22.4",
+                "2.24",
+                "112"
+            ],
+            "correctOption": "11.2",
+            "id": 31
+        },
+        {
+            "question": "The incorrect statements regarding enzymes are:",
+            "options": [
+                "Enzymes are bio catalysts.",
+                "Enzymes are non-specific and cannot catalyse different kinds of reactions.",
+                "Most enzymes are globular proteins.",
+                "Enzyme - oxidase catalyses the hydrolysis of maltose into glucose."
+            ],
+            "correctOption": "Enzyme - oxidase catalyses the hydrolysis of maltose into glucose.",
+            "id": 10
+        },
+        {
+            "question": "The vapor pressure of pure benzene and methyl benzene at 27\u00b0C is given as 80 Torr and 24 Torr, respectively. The mole fraction of methyl benzene in vapor phase, in equilibrium with an equimolar mixture of those two liquids is:",
+            "options": [
+                "0.23",
+                "0.89",
+                "0.99",
+                "0.73"
+            ],
+            "correctOption": "0.23",
+            "id": 1
+        },
+        {
+            "question": "Which one of the following substances has the highest proton affinity?",
+            "options": [
+                "H2S",
+                "NH3",
+                "PH3",
+                "H2O"
+            ],
+            "correctOption": "NH3",
+            "id": 32
+        },
+        {
+            "question": "\u2206U is equal to",
+            "options": [
+                "adiabatic work",
+                "isothermal work",
+                "isochoric work",
+                "isobaric work"
+            ],
+            "correctOption": "adiabatic work",
+            "id": 33
+        },
+        {
+            "question": "Number of atoms in the following samples of substances is the largest in:",
+            "options": [
+                "127.0g of iodine",
+                "48.0g of magnesium",
+                "71.0g of chlorine",
+                "4.0g of hydrogen"
+            ],
+            "correctOption": "4.0g of hydrogen",
+            "id": 35
+        },
+        {
+            "question": "Time required for 99.9% completion of a first order reaction is _________ times the time required for 90% completion.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "9"
+            ],
+            "correctOption": "3",
+            "id": 4
+        },
+        {
+            "question": "The molecular formula of second homologue in the mono carboxylic acids series is:",
+            "options": [
+                "C2H2O4",
+                "C2H2O2",
+                "CH2O",
+                "C3H6O2"
+            ],
+            "correctOption": "C2H2O4",
+            "id": 18
+        },
+        {
+            "question": "The IUPAC name of CH3CHO is",
+            "options": [
+                "Acetaldehyde",
+                "Ethanal",
+                "Methyl aldehyde",
+                "Ethanol"
+            ],
+            "correctOption": "Ethanal",
+            "id": 22
+        },
+        {
+            "question": "Haloalkanes react with KCN to form alkyl cyanides, but with AgCN form isocyanides. KCN and AgCN are highly ionic compounds.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "I IS TRUE BUT II IS FALSE",
+            "id": 14
+        },
+        {
+            "question": "Determine the total number of neutrons in three isotopes of hydrogen",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctOption": "3",
+            "id": 29
+        },
+        {
+            "question": "The gas liberated by the electrolysis of Dipotassium succinate solution is:",
+            "options": [
+                "Ethyne",
+                "Propene",
+                "Ethane",
+                "Ethene"
+            ],
+            "correctOption": "Ethene",
+            "id": 25
+        },
+        {
+            "question": "Coagulation of egg on heating is because of:",
+            "options": [
+                "Denaturation of protein occurs.",
+                "Biological properties of proteins remain unchanged",
+                "Breaking of peptide linkage in the primary structure of protein occurs",
+                "The secondary structure of protein remains unchanged"
+            ],
+            "correctOption": "Denaturation of protein occurs.",
+            "id": 6
+        },
+        {
+            "question": "N(CH3)3 and P(CH3)3 can act as ligands. As N and P are from same group, the nature of bonding is always same with transition metals.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "I IS TRUE BUT II IS FALSE",
+            "id": 9
+        },
+        {
+            "question": "Which one of the following conformation of cyclohexane is chiral?",
+            "options": [
+                "Twist boat",
+                "Rigid",
+                "Chair",
+                "Boat"
+            ],
+            "correctOption": "Twist boat",
+            "id": 23
+        },
+        {
+            "question": "The IUPAC name of CH3COCH(CH3)2 is",
+            "options": [
+                "3-methyl-2-butanone",
+                "2-methyl-3-butanone",
+                "4-methylisopropyl ketone",
+                "Isopropylmethyl ketone"
+            ],
+            "correctOption": "3-methyl-2-butanone",
+            "id": 21
+        },
+        {
+            "question": "The element having the highest first ionization enthalpy is",
+            "options": [
+                "C",
+                "Al",
+                "N",
+                "Si"
+            ],
+            "correctOption": "N",
+            "id": 39
+        },
+        {
+            "question": "High concentration of strong nucleophilic reagent with secondary alkyl halides will follow SN2 mechanism. Secondary alkyl halide with excess ethanol follows SN1 mechanism.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "BOTH I AND II ARE TRUE",
+            "id": 13
+        },
+        {
+            "question": "Acidity of \u03b1-hydrogens of aldehydes and ketones is responsible for Aldol reaction. Benzaldehyde and ethanal will not give Cross-Aldol product.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "I IS TRUE BUT II IS FALSE",
+                "II IS TRUE BUT I IS FALSE"
+            ],
+            "correctOption": "I IS TRUE BUT II IS FALSE",
+            "id": 19
+        },
+        {
+            "question": "The shape of carbocation is:",
+            "options": [
+                "trigonal planar",
+                "tetrahedral",
+                "diagonal",
+                "linear"
+            ],
+            "correctOption": "trigonal planar",
+            "id": 36
+        },
+        {
+            "question": "From the following statements regarding H2O2, choose the incorrect statement",
+            "options": [
+                "It can act only as an oxidizing agent",
+                "It has to be stored in plastic or wax-lined glass bottles in the dark",
+                "It has to be kept away from dust",
+                "It decomposes on exposure to light"
+            ],
+            "correctOption": "It can act only as an oxidizing agent",
+            "id": 26
+        },
+        {
+            "question": "Common name of Benzene - 1,2 - diol is:",
+            "options": [
+                "o-cresol",
+                "catechol",
+                "quinol",
+                "resorcinol"
+            ],
+            "correctOption": "catechol",
+            "id": 12
+        },
+        {
+            "question": "Kjeldahl method is applicable to pyridine. The nitrogen in pyridine can be converted to ammonium sulfate.",
+            "options": [
+                "BOTH I AND II ARE TRUE",
+                "BOTH I AND II ARE FALSE",
+                "II IS TRUE BUT I IS FALSE",
+                "I IS TRUE BUT II IS FALSE"
+            ],
+            "correctOption": "BOTH I AND II ARE FALSE",
+            "id": 17
+        }
+    ],
+    [
+        {
+            "question": "a = sin36 is a root of which of the following equation?",
+            "options": [
+                "16x^4-20x^2+5=0",
+                "16x^4+20x^2+5=0",
+                "16x^4-20x^2-5=0",
+                "16x^4+20x^2-5=0"
+            ],
+            "correctOption": "16x^4-20x^2+5=0",
+            "id": 31
+        },
+        {
+            "question": "What is the quadratic formula?",
+            "options": [
+                "x = (-b \u00c2\u00b1 \u00e2\u02c6\u0161(b\u00c2\u00b2 - 4ac)) / 2a",
+                "x = (b \u00c2\u00b1 \u00e2\u02c6\u0161(b\u00c2\u00b2 - 4ac)) / 2a",
+                "x = (-b \u00c2\u00b1 \u00e2\u02c6\u0161(b\u00c2\u00b2 + 4ac)) / 2a",
+                "x = (b \u00c2\u00b1 \u00e2\u02c6\u0161(b\u00c2\u00b2 + 4ac)) / 2a"
+            ],
+            "correctOption": "x = (-b \u00c2\u00b1 \u00e2\u02c6\u0161(b\u00c2\u00b2 - 4ac)) / 2a",
+            "id": 8
+        },
+        {
+            "question": "In an increasing geometric progression... the sum of the 4th, 6th and 8th terms is equal to:",
+            "options": [
+                "45",
+                "91",
+                "76",
+                "50"
+            ],
+            "correctOption": "91",
+            "id": 22
+        },
+        {
+            "question": "Number of 4-digit numbers that are less than or equal to 2800 and either divisible by 3 or by 11 , is equal to ____________.",
+            "options": [
+                "990",
+                "700",
+                "710",
+                "430"
+            ],
+            "correctOption": "710",
+            "id": 29
+        },
+        {
+            "question": "The number of 3-digit numbers... not divisible by 3 , is equal to ________.",
+            "options": [
+                "36",
+                "37",
+                "35",
+                "43"
+            ],
+            "correctOption": "36",
+            "id": 28
+        },
+        {
+            "question": "If sin A + cos A = \u00bd , then 16(sin(2A) + cos(4A) + sin(6A)) is equal to :",
+            "options": [
+                "45",
+                "-23",
+                "35",
+                "43"
+            ],
+            "correctOption": "-23",
+            "id": 52
+        },
+        {
+            "question": "The number of solutions of the equation x + 2tanx = \u03c0/2 in the interval [0, 2\u03c0] is :",
+            "options": [
+                "9",
+                "7",
+                "3",
+                "4"
+            ],
+            "correctOption": "3",
+            "id": 54
+        },
+        {
+            "question": "What is the derivative of x^2?",
+            "options": [
+                "2x",
+                "x^2",
+                "x",
+                "2"
+            ],
+            "correctOption": "2x",
+            "id": 1
+        },
+        {
+            "question": "A variable line L passes through the point (3,5)... The minimum area of the triangle OAB , where O is the origin, is",
+            "options": [
+                "30",
+                "23",
+                "35",
+                "43"
+            ],
+            "correctOption": "30",
+            "id": 56
+        },
+        {
+            "question": "The equation y = sinx sin (x + 2) \u2013 sin^2 (x + 1) represents a straight line lying in :",
+            "options": [
+                "III and IV QUADRANTS",
+                "II and IV QUADRANTS",
+                "I, III and IV QUADRANTS",
+                "II,III and IV QUADRANTS"
+            ],
+            "correctOption": "III and IV QUADRANTS",
+            "id": 53
+        },
+        {
+            "question": "What is the slope of the line y = 3x + 2?",
+            "options": [
+                "3",
+                "2",
+                "-3",
+                "-2"
+            ],
+            "correctOption": "3",
+            "id": 10
+        },
+        {
+            "question": "A circle is inscribed in an equilateral triangle of side of length 12... then m+n^2 is equal to",
+            "options": [
+                "900",
+                "470",
+                "408",
+                "488"
+            ],
+            "correctOption": "408",
+            "id": 59
+        },
+        {
+            "question": "What is the area of a circle with radius r?",
+            "options": [
+                "\u00cf\u20acr^2",
+                "2\u00cf\u20acr",
+                "\u00cf\u20acr",
+                "r^2"
+            ],
+            "correctOption": "\u00cf\u20acr^2",
+            "id": 11
+        },
+        {
+            "question": "What is the value of e^0?",
+            "options": [
+                "1",
+                "0",
+                "e",
+                "-1"
+            ],
+            "correctOption": "1",
+            "id": 9
+        },
+        {
+            "question": "Number of 4-digit numbers that are less than or equal to 2800 and either divisible by 3 or by 11 , is equal to ____________.",
+            "options": [
+                "990",
+                "700",
+                "710",
+                "430"
+            ],
+            "correctOption": "710",
+            "id": 49
+        },
+        {
+            "question": "If the x-intercept of a focal chord of the parabola y^2=8x+4y+4 is 3, then the length of this chord is equal to ____________.",
+            "options": [
+                "42",
+                "72",
+                "36",
+                "16"
+            ],
+            "correctOption": "16",
+            "id": 60
+        },
+        {
+            "question": "If z = x + iy satisfies |z| - 2 = 0 and |z - i| - |z + 5i| = 0, then :",
+            "options": [
+                "x+2y+4=0",
+                "x+2y-4=0",
+                "x-2y+4=0",
+                "x-2y-4=0"
+            ],
+            "correctOption": "x+2y+4=0",
+            "id": 46
+        },
+        {
+            "question": "What is the solution to the equation x^2 - 4 = 0?",
+            "options": [
+                "x = \u00c2\u00b12",
+                "x = 2",
+                "x = -2",
+                "x = 0"
+            ],
+            "correctOption": "x = \u00c2\u00b12",
+            "id": 18
+        },
+        {
+            "question": "What is the integral of cos(x) dx?",
+            "options": [
+                "sin(x) + C",
+                "-cos(x) + C",
+                "-sin(x) + C",
+                "cos(x) + C"
+            ],
+            "correctOption": "sin(x) + C",
+            "id": 20
+        },
+        {
+            "question": "The portion of the line 4x+5y=20 in the first quadrant is trisected by the lines P and Q passing through the origin. The tangent of an angle between the lines P and Q is :",
+            "options": [
+                "45",
+                "30/41",
+                "35/41",
+                "43/7"
+            ],
+            "correctOption": "30/41",
+            "id": 37
+        },
+        {
+            "question": "What is the sum of the first n natural numbers?",
+            "options": [
+                "n(n+1)/2",
+                "n^2",
+                "n(n-1)/2",
+                "n^2 + n"
+            ],
+            "correctOption": "n(n+1)/2",
+            "id": 15
+        },
+        {
+            "question": "What is the value of sin(0\u00c2\u00b0)?",
+            "options": [
+                "0",
+                "1",
+                "-1",
+                "0.5"
+            ],
+            "correctOption": "0",
+            "id": 17
+        },
+        {
+            "question": "In a survey of 220 students... m and n respectively be the least and the most number of students who studied all the three subjects. Then m+n is equal to ___________.",
+            "options": [
+                "45",
+                "20",
+                "35",
+                "50"
+            ],
+            "correctOption": "45",
+            "id": 21
+        },
+        {
+            "question": "The number of relations... which are reflexive and transitive but not symmetric, is __________.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "correctOption": "3",
+            "id": 24
+        },
+        {
+            "question": "In an increasing geometric progression... the sum of the 4th, 6th and 8th terms is equal to:",
+            "options": [
+                "45",
+                "91",
+                "76",
+                "50"
+            ],
+            "correctOption": "91",
+            "id": 42
+        },
+        {
+            "question": "What is the value of tan(45\u00c2\u00b0)?",
+            "options": [
+                "1",
+                "0",
+                "-1",
+                "\u00e2\u02c6\u01612"
+            ],
+            "correctOption": "1",
+            "id": 13
+        },
+        {
+            "question": "The portion of the line 4x+5y=20 in the first quadrant is trisected by the lines P and Q passing through the origin. The tangent of an angle between the lines P and Q is :",
+            "options": [
+                "45",
+                "30/41",
+                "35/41",
+                "43/7"
+            ],
+            "correctOption": "30/41",
+            "id": 57
+        },
+        {
+            "question": "What is the sum of the angles in a triangle?",
+            "options": [
+                "180\u00c2\u00b0",
+                "360\u00c2\u00b0",
+                "90\u00c2\u00b0",
+                "270\u00c2\u00b0"
+            ],
+            "correctOption": "180\u00c2\u00b0",
+            "id": 7
+        },
+        {
+            "question": "a = sin36 is a root of which of the following equation?",
+            "options": [
+                "16x^4-20x^2+5=0",
+                "16x^4+20x^2+5=0",
+                "16x^4-20x^2-5=0",
+                "16x^4+20x^2-5=0"
+            ],
+            "correctOption": "16x^4-20x^2+5=0",
+            "id": 51
+        },
+        {
+            "question": "The number of integers between 100 and 1000 having the sum of their digits equals to 14 , is _________",
+            "options": [
+                "45",
+                "70",
+                "35",
+                "43"
+            ],
+            "correctOption": "70",
+            "id": 27
+        }
+    ]
+]

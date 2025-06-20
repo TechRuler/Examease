@@ -152,7 +152,7 @@ class Login(Toplevel):
             if account["selected"] == 1:
                 account["selected"] = 0
         self.master.accounts.append(data)
-        with open("src/accounts.json","w") as f:
+        with open("data/accounts.json","w") as f:
             json.dump(self.master.accounts,f,indent=4)
         for element in self.master.element_list:
             element.pack_forget()

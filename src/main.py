@@ -8,7 +8,7 @@ from datetime import datetime
 from helper import get_json, update_json_value,DropdownMenu,CustomButton
 from exam_window import ExamWindow
 from components import Login,SwitchAccount,ProfileWindow,ViewMarks,ThemeWindow
-from widget import ScrollableFrame
+from widget import ScrollableFrame,Tooltip
 
 
 class App(Tk):
@@ -25,6 +25,7 @@ class App(Tk):
         self.style.configure('TNotebook.Tab', background=self.setting["dropdown"]["background-color"], foreground=self.setting["App"]["foreground-color"], font=self.setting["Button"]["font"], padding=(10, 5))
         self.style.map('TNotebook.Tab', background=[('selected', self.setting["App"]["primary-background-color"],)], foreground=[('selected', self.setting["App"]["foreground-color"])])
 
+        self.tooltip = Tooltip(self)
 
         # Safely access settings with defaults
         app_settings = self.setting.get("App", {})
@@ -79,6 +80,7 @@ class App(Tk):
             command=self.create_exam
         )
         self.create_exam_button.pack(side='right', padx=(10, 5), pady=(5, 5))
+        self.tooltip.create_tooltip(self.create_exam_button,"Create a new exam",bg=button_settings["background-color"],fg=button_settings["foreground-color"],font=button_settings["font"])
 
         self.exam_element_frames = ScrollableFrame(self,background=app_settings["primary-background-color"])
         self.exam_element_frames.scrollable_frame.config(background=app_settings["primary-background-color"])
@@ -229,7 +231,7 @@ class App(Tk):
 
     def importing_all_json(self):
         try:
-            self.accounts = get_json("src/accounts.json")
+            self.accounts = get_json("data/accounts.json")
         except (FileNotFoundError, ValueError) as e:
             print(f"Error loading accounts: {e}")
             self.accounts = []
@@ -280,11 +282,13 @@ class App(Tk):
                         "Maths": maths
                     }
                     if paper[1] == "New Exam":
-                        self.add_exam_element(f"{paper[2]}--(New Exam)", "Start",datas,paper[3])
+                        exam_element = self.add_exam_element(f"{paper[2]}--(New Exam)", "Start",datas,paper[3])
+                        exam_element.config(text=f"{paper[2]}--(New Exam)")
                     elif paper[1].split(" ")[0] == "solved":
                         self.add_view_element(f"{paper[2]}--(Solved)", "View",paper[3])
                     elif paper[1].split(" ")[0] == "pending" and int(paper[4]) < 2:
-                        self.add_exam_element(f"{paper[2]}--(Resume the exam in 3 hours from the time exam started)", "Resume",datas,paper[3])
+                        exam_element = self.add_exam_element(f"{paper[2]}--(Resume the exam in 3 hours from the time exam started)", "Resume",datas,paper[3])
+                        exam_element.config(text=f"{paper[2]}--(Resume the exam in 3 hours from the time exam started)")
                     elif paper[1].split(" ")[0] == "auto_submit" and int(paper[4]) >= 2:
                         self.add_view_element(f"{paper[2]}--(Oops! Paper is auto submitted)", "View",paper[3])
                     
@@ -367,7 +371,7 @@ class App(Tk):
 
     def logout_function(self):
         self.account["selected"] = 0 
-        with open("src/accounts.json","w") as f:
+        with open("data/accounts.json","w") as f:
             json.dump(self.accounts,f,indent=4)
         for element in self.element_list:
             element.pack_forget()
@@ -402,8 +406,8 @@ class App(Tk):
         i = self.account.get("number-of-papers",0)
         self.account["papers-dictionary"].append((self.account.get("id")+ str(i+1) + ".json","New Exam",text,exam_id,0))
         self.account["number-of-papers"] = i+1
-        update_json_value("src/accounts.json", "number-of-papers", self.account["number-of-papers"])
-        update_json_value("src/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
+        update_json_value("data/accounts.json", "number-of-papers", self.account["number-of-papers"])
+        update_json_value("data/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
     def storing_question_paper(self,account,datas):
         i = account.get("number-of-papers",0)
         path = os.path.join(account.get("path"), account.get("id") + str(i+1) + ".json")
@@ -444,7 +448,7 @@ class App(Tk):
         exam_element_frame.pack(fill='x', padx=(40, 40), pady=(5, 5))
         exam_element = Label(
             exam_element_frame,
-            text=text,
+            text=f"{text}--(New Exam)",
             background=button_settings.get("background-color", "#FFFFFF"),
             foreground=button_settings.get("foreground-color", "#000000"),
             font=button_settings.get("font", ("Arial", 10)),
@@ -471,8 +475,9 @@ class App(Tk):
 
         self.element_list.append(exam_element_frame)
         
+        return exam_element
         
-
+        
     def add_view_element(self,text,button_text,exam_id):
         button_settings = self.setting.get("Button", {})
         exam_element_frame = Frame(self.exam_element_frames.scrollable_frame, background=button_settings.get("background-color", "#FFFFFF"),highlightthickness=1)

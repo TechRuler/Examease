@@ -1,0 +1,68 @@
+{
+    "Physics": {
+        "Work function is 4.0 eV. Longest wavelength to emit photoelectrons is:": [
+            1,
+            "540 nm"
+        ],
+        "As the beam enters the medium, it will:": [
+            2,
+            "converge"
+        ],
+        "Fundamental frequency of a closed pipe = first overtone of open pipe. If open pipe is 60 cm, closed pipe is:": [
+            3,
+            "25"
+        ],
+        "A radioactive substance has a half-life of 10 days. In how many days will only 1/8th of the substance remain?": [
+            4,
+            "30"
+        ],
+        "Average KE of a monatomic molecule is 0.414 eV. Temp is:": [
+            5,
+            "3200 K"
+        ]
+    },
+    "Chemistry": {
+        "The incorrect postulates of the Dalton's atomic theory are:": [
+            1,
+            "Atoms of different elements differ in mass."
+        ],
+        "The incorrect statements regarding enzymes are:": [
+            2,
+            "Enzymes are non-specific and cannot catalyse different kinds of reactions."
+        ],
+        "Haloalkanes react with KCN to form alkyl cyanides, but with AgCN form isocyanides. KCN and AgCN are highly ionic compounds.": [
+            3,
+            "BOTH I AND II ARE TRUE"
+        ],
+        "Phenol treated with chloroform in presence of sodium hydroxide, then hydrolyzed in acid results in:": [
+            4,
+            "Salicylic Acid"
+        ],
+        "Which compound will not give silver mirror with ammoniacal AgNO3?": [
+            5,
+            "Formic acid"
+        ]
+    },
+    "Maths": {
+        "What is the value of tan(45\u00c2\u00b0)?": [
+            1,
+            "1"
+        ],
+        "Let S = {1, 2, 3, 5, 7, 10, 11}. The number of non-empty subsets of S that have the sum of all elements a multiple of 3, is _____________.": [
+            2,
+            "20"
+        ],
+        "A circle is inscribed in an equilateral triangle of side of length 12... then m+n^2 is equal to": [
+            3,
+            "900"
+        ],
+        "Let f(x) be a quadratic polynomial such that f(-2) + f(3) = 0. If one of the roots of f(x) = 0 is 1, then the sum of the roots of f(x) = 0 is equal to:": [
+            4,
+            "13/3"
+        ],
+        "Number of 4-digit numbers that are less than or equal to 2800 and either divisible by 3 or by 11 , is equal to ____________.": [
+            5,
+            "990"
+        ]
+    }
+}

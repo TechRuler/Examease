@@ -188,7 +188,7 @@ class ExamWindow(Toplevel):
                     )
                         self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
 
-            update_json_value("src/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
+            update_json_value("data/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
             
  
             self.destroy()
@@ -244,7 +244,7 @@ class ExamWindow(Toplevel):
                     )
                 self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
                 break
-        update_json_value("src/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
+        update_json_value("data/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
         
         self.destroy()
 
@@ -288,7 +288,7 @@ class ExamWindow(Toplevel):
                     self.view_button.pack(side='right', padx=(5, 10), pady=(5, 5))
                     break
             print(self.element_label.master)
-            update_json_value("src/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
+            update_json_value("data/accounts.json", "papers-dictionary", self.account["papers-dictionary"])
             self.destroy()
     
 

@@ -73,7 +73,7 @@ class SwitchAccount(Toplevel):
                 account["selected"] = 1 
             else: 
                 account["selected"] = 0
-        with open("src/accounts.json","w") as f:
+        with open("data/accounts.json","w") as f:
             json.dump(self.master.accounts,f,indent=4)
         for element in self.master.element_list:
             element.pack_forget()

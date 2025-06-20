@@ -1,0 +1,96 @@
+[
+    {
+        "id": "TechRuler",
+        "name": "Anmol Kumar",
+        "selected": 1,
+        "age": "20",
+        "selected-theme": "./theme/Dark.json",
+        "password": "2255",
+        "path": "data/TechRuler-papers",
+        "number-of-papers": 8,
+        "papers-dictionary": [
+            [
+                "TechRuler1.json",
+                "solved TechRuler1_solved.json",
+                "Paper 1",
+                3271,
+                0
+            ],
+            [
+                "TechRuler2.json",
+                "auto_submit TechRuler2_solved.json",
+                "Paper 2",
+                8556,
+                2
+            ],
+            [
+                "TechRuler3.json",
+                "solved TechRuler3_solved.json",
+                "Paper 3",
+                1112,
+                1
+            ],
+            [
+                "TechRuler4.json",
+                "solved TechRuler4_solved.json",
+                "Paper 4",
+                2607,
+                0
+            ],
+            [
+                "TechRuler5.json",
+                "solved TechRuler5_solved.json",
+                "Paper 5",
+                9434,
+                0
+            ],
+            [
+                "TechRuler6.json",
+                "solved TechRuler6_solved.json",
+                "Paper 6",
+                3531,
+                1
+            ],
+            [
+                "TechRuler7.json",
+                "solved TechRuler7_solved.json",
+                "Paper 7",
+                2170,
+                0
+            ],
+            [
+                "TechRuler8.json",
+                "solved TechRuler8_solved.json",
+                "Paper 8",
+                9667,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "vortexKing",
+        "name": "Vortex",
+        "selected": 0,
+        "age": "20",
+        "selected-theme": "./theme/Dark.json",
+        "password": "2222",
+        "path": "data/vortexKing-papers",
+        "number-of-papers": 2,
+        "papers-dictionary": [
+            [
+                "vortexKing1.json",
+                "New Exam",
+                "Paper 1",
+                2410,
+                0
+            ],
+            [
+                "vortexKing2.json",
+                "New Exam",
+                "Paper 2",
+                2442,
+                0
+            ]
+        ]
+    }
+]

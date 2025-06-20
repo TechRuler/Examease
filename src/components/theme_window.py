@@ -73,7 +73,7 @@ class ThemeWindow(Toplevel):
         self.master.setting = get_json(os.path.join(self.path,name))
         for data in self.master.accounts:
             data["selected-theme"] = f"{self.path}/{name}"
-        with open("src/accounts.json",'w') as file:
+        with open("data/accounts.json",'w') as file:
             data = json.dump(self.master.accounts,file,indent=4)
         self.master.change_color()
         self.destroy()
